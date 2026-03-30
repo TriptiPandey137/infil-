@@ -1,3 +1,12 @@
+mport React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './main.jsx'; // or whatever you named the main file
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 import React, { useState } from 'react';
 
 // --- STYLES (Zyden Aesthetic) ---
